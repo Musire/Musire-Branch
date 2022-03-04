@@ -15,10 +15,4 @@ const config = {
 }
 
 
-var game = new Phaser.Game(config)
-
-// load scenes
-game.scene.add('BattleScene', BattleScene);
-
-// start title
-game.scene.start('BattleScene');
+export default new Phaser.Game(config)
