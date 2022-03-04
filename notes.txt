@@ -1,0 +1,20 @@
+blank scene 0001
+tween left and right trainer sprites
+add the party pokemon sprites (with pokeballs)
+add the text (wants to fight or wild pokemon)
+tween the opponent trainer sprite to the right
+update text to first opponent pokemon
+scale/fade in tween effects for the opponent pokemon
+toggle the healthbar/name for opponent pokemon
+tween player trainer sprite left
+update text (go... first pokemon name)
+toggle the healthbar/name for own pokemon
+fog pokeball animation
+scale/fade in tween effects for own pokemon
+quick fade in/ tween effect 4 option box
+	depending on option quick fade in tween options
+
+clear text box + animate the attack used
+update the text box to the used attack
+update text box of the enemy used attack
+(use battle calculations to see if attack hit)
