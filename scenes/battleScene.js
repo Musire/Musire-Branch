@@ -8,6 +8,7 @@ class BattleScene extends Phaser.Scene {
         this.load.image('blankScene', 'assets/sprites/blankScene.png');
         this.load.image('opponent', 'assets/sprites/blue.png');
         this.load.image('player', 'assets/sprites/red2.png');
+        this.load.audio('song', 'assets/audio/pokemonBattle.mp3' )
 
     }
 
@@ -31,6 +32,18 @@ class BattleScene extends Phaser.Scene {
                 x: 355,
                 repeat: 0,
             })
+
+            let musicConfig = {
+                mute: false,
+                volume: 1,
+                rate: 1,
+                detune: 0,
+                seek: 0,
+                loop: false,
+                delay: 0
+            }
+            this.music = this.sound.add('song');
+            this.music.play(musicConfig);
     }
 
 }
